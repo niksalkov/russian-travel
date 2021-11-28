@@ -6,3 +6,6 @@
 2. Адаптивная верстка
 3. Grid-layout
 4. БЭМ
+
+### Ссылка на проект:
+https://niksalkov.github.io/russian-travel/
