@@ -3,12 +3,12 @@
     margin: 0 auto;
     margin-bottom: 80px;
     display: grid;
-    grid-template-columns: (2,100%);
-    grid-template-rows: (3,100%);
+    grid-template-columns: (2, 100%);
+    grid-template-rows: (3, 100%);
     gap: 40px;
-    grid-template-areas: 
-    "place__title place__website"
-    "place__image place__paragraphs";
+    grid-template-areas:
+        "place__title place__website"
+        "place__image place__paragraphs";
 }
 
 .place:last-child {
@@ -19,7 +19,7 @@
     .place {
         margin-bottom: 73px;
     }
-    
+
 }
 
 @media screen and (max-width:767px) {
@@ -27,11 +27,11 @@
         width: 100%;
         margin-bottom: 50px;
         display: grid;
-        grid-template-areas: 
-        "place__title"
-        "place__website"
-        "place__image"
-        "place__paragraphs";
+        grid-template-areas:
+            "place__title"
+            "place__website"
+            "place__image"
+            "place__paragraphs";
     }
-    
+
 }

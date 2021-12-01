@@ -1,4 +1,7 @@
 .header__header-links {
+    padding: 0;
+    margin: 0;
     display: flex;
     align-self: center;
+    list-style: none;
 }

@@ -4,20 +4,34 @@
     max-width: 560px;
     min-width: 288px;
     color: #fff;
+    background: transparent;
     z-index: 10;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
+    padding-top: 245px;
 }
 
 @media screen and (max-width:767px) {
     .cover__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
+        padding-top: 33px;
+    }  
+}
+
+@media screen and (max-width:1279px) {  
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .cover__title {
+        padding-top: 115px;
     }
 }

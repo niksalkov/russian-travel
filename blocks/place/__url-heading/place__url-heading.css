@@ -3,10 +3,11 @@
     padding: 0;
     color: #aaa;
     margin-bottom: 12px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }

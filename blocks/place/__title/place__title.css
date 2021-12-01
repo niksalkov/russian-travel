@@ -1,9 +1,9 @@
 .place__title {
     margin: 0;
     padding: 0;
-    width: 90%;
+    max-width: 460px;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -13,28 +13,27 @@
 
 @media screen and (max-width:1279px) {
     .place__title {
-        width: 340px;
+        width: 440px;
     }
-    
+
 }
 
 
 @media screen and (max-width:1023px) {
     .place__title {
         width: 340px;
-        font-style: normal;
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
     }
-    
+
 }
 
 @media screen and (max-width:767px) {
     .place__title {
         width: 90%;
+        margin: 0 auto;
         font-size: 32px;
-    line-height: 35px;
+        line-height: 35px;
     }
-    
+
 }
