@@ -4,27 +4,3 @@
     text-decoration: none;
     z-index: 10;
 }
-
-
-@media screen and (max-width:1279px) {  
-    .cover__link {
-        width: 100%;
-        padding-top: 195px;
-        padding-bottom: 195px;
-    }
-}
-
-
-@media screen and (max-width:1023px) {
-    .cover__link {
-        padding-top: 115px;
-        padding-bottom: 115px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .cover__link {
-        padding-top: 33px;
-        padding-bottom: 33px;
-    }
-}     
