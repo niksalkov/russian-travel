@@ -7,9 +7,19 @@
     justify-content: space-between;
 }
 
+
+@media screen and (max-width:1023px) {
+    .footer {
+        width: 720px;
+        margin: 88px auto 0;
+    }
+    
+}
+
 @media screen and (max-width:767px) {
     .footer {
-        margin: 64px auto 0;
+        width: 186px;
+        margin: 64px 0 0 16px;
         display: block;
     }
     
