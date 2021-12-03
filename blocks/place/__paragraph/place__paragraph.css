@@ -1,8 +1,7 @@
 .place__paragraph {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     color: #fff;
-    margin-bottom: 26px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -10,11 +9,6 @@
     line-height: 29px;
     max-width: 484px;
 }
-
-.place__paragraph:nth-child(2) {
-    margin-bottom: 0;
-}
-
 
 @media screen and (max-width:1279px) {
     .place__paragraph {
@@ -34,6 +28,5 @@
 @media screen and (max-width:767px) {
     .place__paragraph {
         width: 288px;
-        margin: 0 auto 25px;
     }
 }
